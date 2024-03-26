@@ -10,7 +10,7 @@ header {
     color: #f9faf8;
     padding-bottom: 100px;
 }
-h2 {
+header h2 {
     font-size: 24px;
     position: relative;
     left: 500px;
@@ -73,6 +73,70 @@ h4 {
 #container h6 {
     font-size: 18px;
     padding-left: 120px;
+}
+
+#second-div{
+    border: 2px solid red;
+    padding-bottom: 30px;
+    position: relative
+}
+
+#second-div h2 {
+    font-size: 36px;
+    color: #1f2937;
+    position: absolute;
+    width: 600px;
+    left: 800px;
+    padding-top: 20px;  
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 50px;
+}
+.gallery h5 {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
     
-    
+}
+
+.subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.subtext figcaption {
+    max-width: 150px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+#fig-one {
+    position: relative;
+    right: 120px;
+}
+
+#fig-two {
+    position: relative;
+    right: 40px;
+
+}
+
+#fig-three {
+    position: relative;
+    left: 40px;
+}
+
+#fig-four {
+    position: relative;
+    left: 120px;
 }
